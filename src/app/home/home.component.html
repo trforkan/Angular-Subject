@@ -1,0 +1,38 @@
+<!-- <p *ngFor="let item of customDataArray">
+    {{item}}
+</p>
+
+
+<div>
+    <input type="text" #myInput >
+</div>
+
+<div>
+    {{requestedData}}
+</div>
+
+<button (click)="changeSubjectValue()">click me</button> -->
+
+<div fxLayout="column">
+    <div fxFlex="100" style="border: 1px solid red">
+        <h1>{{userName}}</h1>
+    </div>
+    
+    <br>
+    
+    <div fxFlex="100" fxLayoutAlign="space-between center">
+    
+        <div fxFlex="30" style="border: 1px solid red" fxLayoutAlign="center center">
+            <app-comp1></app-comp1>
+        </div>
+    
+        <div fxFlex="30" style="border: 1px solid red" fxLayoutAlign="center center">
+            <app-comp2></app-comp2>
+        </div>
+    
+        <div fxFlex="30" style="border: 1px solid red" fxLayoutAlign="center center">
+            <app-comp3></app-comp3>
+        </div>
+    
+    </div>
+</div>
